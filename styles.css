@@ -1,0 +1,336 @@
+    /*INDEX WEBSITE*/
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+    
+}
+
+body {
+    background-color: #161616;
+    color: white;
+}
+/* HEADER with NAVigation and logo*/
+#header {
+    font-family: aktiv-grotesk-extended, 'Open Sans', sans-serif;
+    font-size: 10pt;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    /*background-color: #0f0f0f;*/
+}
+nav {
+    margin-top: 5px;
+}
+nav a{
+    text-decoration: none;
+    color: #f4f4f4;
+    margin-right: 30px;
+}
+.left {
+    margin-left: 140px;
+}
+.left img {
+    filter: invert(90%);
+}
+.right {
+    margin-right: 110px;
+}
+/* HEADER with NAVigation and logo*/
+
+/* MAIN ARTICLE, biggest one*/
+#main-article {
+    font-family: aktiv-grotesk, sans-serif;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#main-article a {
+    color: white;
+}
+.bottom-left-paragraph {
+    position: absolute;
+    bottom: 90px;
+    left: 200px;
+}
+.bottom-left-heading {
+    position: absolute;
+    bottom: 110px;
+    text-decoration: none;
+    left: 200px;
+}
+.bottom-left-heading a {
+    text-decoration: none;
+}
+.bottom-left-link {
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+}
+/* MAIN ARTICLE, biggest one*/
+
+/* HEADINGS AND PARAGRAPHS*/
+h1 {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight:700;
+    font-size:40pt;
+}
+h2{
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight:700;
+    font-size: 24pt;
+    text-decoration: none;
+    color: white;
+}
+h5 {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight:500;
+    font-size: 16pt;
+    text-decoration: underline;
+    color: white;
+}
+h3 {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight:700;
+    font-size:14pt;
+    text-decoration: none;
+    color: white;
+}
+h4 {
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: bold;
+    font-size:18pt;
+}
+h2 a{
+    font-family: aktiv-grotesk, sans-serif;
+    text-decoration: underline;
+    font-size: 16pt;
+    font-weight: 500;
+    color: black;
+}
+h6 a{
+    text-decoration: underline;
+    font-size: 12pt;
+    font-weight: 400;
+    color: white;
+}
+p {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight:400;
+    font-size:10pt;
+}
+#copyright {
+    font-size: 8pt;
+}
+figcaption {
+    color: grey;
+    font-size: 8pt;
+    font-family: aktiv-grotesk, sans-serif;
+}
+/* HEADINGS AND PARAGRAPHS*/
+
+/* SMALLER ARTICLES*/
+#other-articles {
+    display: flexbox;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.article1 {
+    margin-top: 60px;
+    display: inline-block;
+    width: 340px;
+    vertical-align: top;
+}
+.Articles-heading {
+    display: inline;
+    text-align: left;
+}
+.Articles-heading a {
+    text-decoration: none;
+    color: white;
+}
+.article1 img {
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+}
+.Articles-paragraph {
+    margin-top: 5px;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+.Articles-paragraph a {
+    text-decoration: none;
+    color: white;
+}
+.All-articles-link {
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* SMALLER ARTICLES*/
+
+/* WELCOME MESSAGE*/
+.Welcome-message {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+.Welcome-message > div {
+    margin-top: 100px;
+    text-align: left;
+    max-width: 70ch;
+  }
+/* WELCOME MESSAGE*/
+
+/*FOOTER*/
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+    padding-bottom: 5px;
+}
+.footer-center {
+    text-align: left;
+}
+.footer-right a {
+    margin-left: 20px;
+}
+.footer-left img {
+    filter: invert(90%);
+}
+/*FOOTER*/
+
+    /*ARTICLES SITE*/
+#Heading {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.pagination a {
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.pagination a.active {
+    background-color: #414141;
+}
+.pagination a:hover:not(.active) {background-color: #2a2a2a;}
+
+    /*ARTICLE 1 - Don't Just Be...*/
+#Article-title {
+    font-family: aktiv-grotesk, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+#Author {
+    text-align: center;
+}   
+#Subtitles {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.Subtitle1 {
+    max-width: 60ch;
+    text-align: left;
+}
+#body-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    text-align: start;
+    max-width: 70ch;
+    margin-top: 50px;
+}
+.paragraph1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    text-align: start;
+    max-width: 70ch;
+}
+#article-text {
+    font-size: 12pt;
+}
+#article-smalltext a{
+    text-decoration: underline;
+    color: white;
+}
+#article-smalltext {
+    font-size: 10pt;
+}
+.Subtitle2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: aktiv-grotesk, sans-serif;
+
+}
+#Article-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    text-align: left;
+    max-width: 70ch;
+    margin-top: 30px;
+}
+#Article-image2 {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.6;
+    text-align: left;
+    max-width: 70ch;
+    margin-top: 30px;
+}
+#sources {
+    text-decoration: none;
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 9pt;
+    list-style-type:none;
+}
+#sources a {
+    color: grey;
+}
+  /*ARTICLE 2 - Making a better...*/
+ol {
+    font-family: aktiv-grotesk, sans-serif;
+    list-style:decimal; 
+    margin-left: 0; 
+    padding-left: 1em;
+}
+
+ /*SLOTH RECOMMENDS PAGE*/
+
+#movie-recs {
+    display: flexbox;
+    text-align: center;
+}
+.Movie-section {
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 50px;
+ }
+.Movie-title {
+    margin-top: 20px;
+    margin-left: 200px;
+    text-align: left;
+}
+.Movie-logline {
+    max-width: 60ch;
+    margin-left: 200px;
+    text-align: left;
+}
